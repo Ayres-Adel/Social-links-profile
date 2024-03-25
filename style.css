@@ -1,0 +1,153 @@
+@import url(https://fonts.google.com/specimen/Inter);
+*{
+    padding:0;
+    margin: 0;
+}
+:root
+{
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%); 
+    --Green: hsl(75, 94%, 57%); 
+    --Font-size: 14px;
+    --Family: [Inter](https://fonts.google.com/specimen/Inter);
+    --Weights: 400, 600, 700;
+}
+
+.diamond {
+    color: rgb(28, 132, 218);
+}
+body
+{
+    background-color:var(--Off-Black);
+    background-repeat:no-repeat;
+    background-size: 1400px;   
+    overflow: hidden;
+}
+.box
+{
+    border: 3px solid var(--Dark-Grey);
+    border-radius: 10px;
+    width: 390px;
+    height: 650px;
+    margin-left:470px; 
+    margin-top:40px;
+    background-color:   var(--Dark-Grey);
+}
+.Ayres img
+{
+    height: 90px;
+    width: 95px;
+    border-radius: 100px;
+}
+.Ayres
+{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.name
+{
+    font-family: var(--Family);
+    font-size: 25px;
+    font-weight: var(--Weights);
+    color: var(--White);
+    margin-top: 20px;
+}
+.place
+{
+    font-size: 15px;
+    font-weight: var(--Weights);
+    color: rgb(62, 137, 167);
+    margin-top: 10px;
+}
+.dev
+{
+    font-size: 12px;
+    font-weight: var(--Weights);
+    color: var(--Green);
+    margin-top: 40px;
+}
+.buttons
+{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.buttons button
+{
+    cursor:pointer;
+    font-family: var(--Family);
+    font-weight: var(--Weights);
+    font-size: 15px;
+    border: 1px solid var(--Grey);
+    background-color: var(--Grey);
+    color: var(--White);
+    border-radius: 5px;
+    width: 300px;
+    height:40px;
+    margin-top: 13px;
+}
+.buttons :hover
+{
+    transition: 0.5s;
+    color: var(--Green)
+}
+.out_box
+{
+    color: rgb(181, 98, 230);
+    margin-top:-600px ;
+    font-size: 100px;
+    font-family: 'Pacifico', cursive;
+    margin-left: 500px;
+}
+.in_box
+{
+    font-size: 30px;
+}
+.img1 img
+{
+    margin-left: 590px;
+    margin-top: 300px;
+}
+.img1
+{
+    height: 10px;
+    width: 10px;
+
+}
+.border
+{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    width: 900px;
+    height: 100px;
+    margin-top: -350px;
+    margin-left: 500px;
+}
+.border_button
+{
+    margin-top: 40px;
+}
+.border_button button
+{
+    background-color: white;
+    border: 1px solid white;
+    font-family: 'Protest Riot', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.border_button  :hover
+{
+    transition: 0.5s;
+    color: rgb(181, 98, 230);
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
